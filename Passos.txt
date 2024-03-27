@@ -1,0 +1,9 @@
+Configurar o Git Local: 
+    git config --global user.name joao4040
+    git config --global user.email joao.macedo70@etec.sp.gov.br
+
+Criar um Projeto:
+    dotnet new mvc -o Artfolio
+
+Executar um Projeto:
+    dotnet watch run
