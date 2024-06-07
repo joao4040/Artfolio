@@ -1996,14 +1996,14 @@ blockquote cite {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 300px;
+    bottom: 100px;
     z-index: 9;
     transition: 0.5s ease-out;
     padding: 20px 30px;
     opacity: 0;
 }
 .product-item:hover .cart-concern {
-    bottom: 280px;
+    bottom: 80px;
     opacity: 1;
 }
 i.icon.icon-arrow-io {
