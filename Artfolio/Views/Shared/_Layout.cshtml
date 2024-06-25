@@ -90,8 +90,9 @@
                     <li class="menu-item has-sub">
                       <a asp-action="" class="item-anchor active d-flex align-item-center" data-effect="Home">Inicio</a>
                     </li>
-
-                    <li><a href="about.html" class="item-anchor" data-effect="About">Sobre</a></li>
+                    <li class="menu-item has-sub">
+                      <li><a href="#sobre_Nós" class="item-anchor" data-effect="About">Sobre</a> </li>
+                    </li>
 
                     <li class="menu-item has-sub">
                       <a href="#Em_Alta" class="item-anchor d-flex align-item-center" data-effect="Shop">Em Alta</a>
@@ -101,9 +102,10 @@
                     <li class="menu-item has-sub">
                       <a href="#Artes_page" class="item-anchor d-flex align-item-center" data-effect="Pages">Artes</a>
 
+                    </li 
+                    <li class="menu-item has-sub">
+                      <li><a href="#contato" class="item-anchor" data-effect="Contact">Contato</a></li>
                     </li>
-                    <li><a href="contact.html" class="item-anchor" data-effect="Contact">Contact</a></li>
-
                   </ul>
                 </div>
 
@@ -118,16 +120,16 @@
     @RenderBody()
   </main>
    <footer>
-        <div class="footer-container">
+        <div class="footer-container"> 
             <div class="about-us">
-                <h2>Sobre Nós</h2>
-                <p>Somos uma empresa dedicada a fornecer os melhores serviços para nossos clientes. Nossa missão é oferecer qualidade e excelência em tudo o que fazemos. Valoramos a satisfação do cliente acima de tudo e nos esforçamos para superar expectativas em todos os aspectos.</p>
+                <h2 id=sobre_Nós>Sobre Nós</h2>
+                <p>Somos ArtFolio visando a ajudar a comunidade artistica, que o nosso site seja uma luz no vasto campo da arte digital, inspirando e encantando todos aqueles que o visitam. Que nosso site seja uma ajuda para os artistas, que vocês sejam felizes espaplhando e fazendo o que amam, atenciosamente time ArtFolio!</p>
             </div>
             <div class="contact">
-                <h2>Contato</h2>
-                <p>Número de contato: (11) 1234-5678</p>
-                <p>Email: contato@exemplo.com</p>
-                <p>Endereço: Rua Exemplo, 123 - Cidade, Estado, CEP 12345-678</p>
+                <h2 id=contato>Contato</h2>
+                <p>Número de contato: (14) 1234-5678</p>
+                <p>Email: Artfolio@Artfolio.com</p>
+                <p>Endereço: Rua da arte, 0804 - Barra Bonita, São Paulo, CEP 1234-567</p>
             </div>
         </div>
     </footer>
